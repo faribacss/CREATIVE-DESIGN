@@ -1,0 +1,146 @@
+.rolling-section {
+  padding: 30px 0;
+  margin-top: 50px;
+}
+
+.about-item-scroll {
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.about-item-scroll h2 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #efefef;
+  margin-bottom: 15px;
+}
+
+.about-item-scroll p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #efefefb9;
+}
+
+.about-item-scroll .icons {
+  display: inline-block;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.about-item-scroll .icons i {
+  color: #efefefb9;
+  background-color: #2846576c;
+  padding: 12px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.about-item-scroll .icons i:hover {
+  background-color: #284657fb;
+}
+
+/* right side */
+.scroll-item {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.first-item {
+  background-color: #1b262c;
+  padding: 20px 25px;
+  border-radius: 10px;
+  color: #fff;
+  width: 45%;
+  gap: 10px;
+  animation: slide 20s infinite linear;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.first-item-star {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.first-item-star i {
+  color: #ffd700;
+  font-size: 18px;
+}
+
+.first-desc {
+  font-size: 14px;
+  font-weight: 400;
+  color: #efefefb9;
+  font-style: italic;
+}
+
+.first-item-img {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.first-item-img .first-item-name {
+  margin-left: 10px;
+  padding: 0;
+}
+
+.first-item-img .first-item-name h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.first-item-img .first-item-name p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #efefefb9;
+  margin: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .scroll-item {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+ 
+  .first-item {
+    width: 70%;
+    overflow: hidden;
+    animation: puls 5s infinite;
+  }
+}
+
+
+ @keyframes puls {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }

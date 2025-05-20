@@ -1,0 +1,45 @@
+.nav-container {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    padding: 12px 35px;
+    background-color: #1b262c;
+    border-radius: 50px;
+    z-index: 1000;
+}
+
+.nav-offcanvas {
+    background-color: #1b262cf8;
+    padding: 10px;
+}
+
+.nav-brand {
+    font-size: 25px;
+    color: #fff;
+}
+.nav-brand:hover {
+    color: #fff;
+}
+.nav-list .nav-link {
+    color: #fff;
+    margin: 0 15px;
+}
+.nav-list .nav-link:hover {
+    color: #e3a127;
+}
+.nav-list .nav-link.active {
+    color: #e3a127;
+}
+
+.btn-login {
+    background-color: #e3a127;
+    color: #FFF;
+    border: none;
+    border-radius: 50px;
+}
+
+.btn-login:hover {
+    background-color: #e3a127d3;
+    color: #FFF;
+}
