@@ -3,6 +3,7 @@
   top: 20px;
   left: 0;
   right: 0;
+  margin: 0 auto;
   padding: 12px 35px;
   background-color: #1b262c;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -47,7 +48,7 @@
 
 @media screen and (max-width: 767px) {
   .nav-container {
-    width: 100%;
+    width: 90%;
     background-color: #2c373d;
   }
 }

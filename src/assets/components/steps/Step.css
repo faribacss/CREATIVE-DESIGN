@@ -1,5 +1,5 @@
 .step-section {
-  padding: 50px 0;
+  padding: 50px 35px;
   background-color: #031119;
 }
 .step-section .step-title {
@@ -169,3 +169,13 @@
     left: 55px;
   }
 }
+
+@media screen and (max-width: 575px) {
+  .step-content .step-info h3 {
+    font-size: 16px;
+  }
+  .step-content .step-info p {
+    font-size: 11px;
+  }
+}
+

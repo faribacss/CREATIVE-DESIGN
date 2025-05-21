@@ -12,7 +12,7 @@ function Items({star, desc, img, name, job}) {
     return (
       <>
         <div
-          className="first-item col-sm-12 col-md-6"
+          className="first-item col-md-5 col-sm-6"
           data-aos="fade-up"
           data-aos-delay="600"
         >
