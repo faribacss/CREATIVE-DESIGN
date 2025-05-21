@@ -1,0 +1,182 @@
+.services-section {
+  padding: 50px 0;
+  background-color: #031119;
+}
+
+.services-section .header-title {
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.services-section .header-title::after {
+  content: "";
+  width: 11%;
+  height: 1px;
+  background-color: #e3a127;
+}
+
+.services-section .main-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.services-section .service-title-1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.services-section .service-title-2 {
+  color: #e3a127;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.service-description {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.service-btn {
+  background-color: #e3a127;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.service-btn:hover {
+  background-color: #e3a127ad;
+}
+
+.service-btn a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.service-btn i {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.service-btn:hover i {
+  transform: translateX(10px);
+}
+.service-contents {
+  padding: 0;
+  width: 32.2%;
+  margin: 0 7px;
+  border: 1px solid #99999923;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.3s ease-in-out;
+}
+.service-content {
+  position: relative;
+  padding: 30px;
+  box-sizing: content-box;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.services-section .service-content:hover {
+  background-color: #99999923;
+  border-top-right-radius: 160px;
+}
+.service-contents:hover {
+  border: 0;
+  box-shadow: none;
+}
+
+.service-content::after {
+  content: "\f144";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  background-color: #e3a127;
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  color: #f8f7f6;
+  text-align: center;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  display: none;
+}
+.service-content:hover::after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: translate 0.3s ease-in-out forwards;
+}
+@keyframes translate {
+  0% {
+    transform: translateY(50%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(10%);
+    opacity: 1;
+  }
+}
+.service-content .service-item-icon i {
+  background-color: #e3a1277a;
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  color: #e3a127;
+  margin-bottom: 15px;
+}
+.service-content .service-item-title a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
+.service-content .service-item-description {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  .service-contents{
+    width: 48%;
+  }
+}
+@media screen and (max-width: 790px) {
+  .service-contents{
+    width: 100%;
+  }
+}

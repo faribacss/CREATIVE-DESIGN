@@ -56,7 +56,7 @@ function AboutItem() {
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
-              <div className="about-item-scroll">
+              <div className="about-item-scroll" data-aos="fade-down" data-aos-delay="700">
                 <h2>Our Clients Speak Highly</h2>
                 <p>
                   Hear directly from those who have experienced the impact of

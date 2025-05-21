@@ -117,22 +117,18 @@
   margin: 0;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .scroll-item {
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 40px;
+    align-items: center;
+    overflow-y: hidden;
+    margin-top: 30px;
   }
-
- 
   .first-item {
-    width: 70%;
-    overflow: hidden;
-    animation: puls 5s infinite;
+    margin: 0 auto;
+    animation: puls 5s ease-in infinite;
   }
 }
-
-
  @keyframes puls {
     0% {
       transform: scale(0.9);
