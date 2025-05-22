@@ -1,0 +1,258 @@
+.contact-section {
+  padding: 50px 30px;
+  background-color: #031119;
+}
+
+.contact-section span {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.contact-section span::after {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 1px;
+  background-color: #e3a127;
+}
+.contact-section h2 {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.contact-items {
+  display: flex;
+  align-items: center;
+  width: 99%;
+  gap: 10px;
+  background-color: #1b262c;
+  padding: 25px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.3s ease;
+}
+.contact-items:hover {
+  transform: scale(1.01);
+}
+
+.contact-icon {
+  margin-right: 10px;
+}
+.contact-icon i {
+  font-size: 20px;
+  padding: 14px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: #e3a1273f;
+  color: #e3a127;
+}
+.contact-info {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.contact-info h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.contact-info p {
+  font-size: 14px;
+  color: #ffffffcc;
+}
+
+@media screen and (max-width: 576px) {
+  .contact-section {
+    padding: 50px 10px;
+  }
+  .contact-items h3 {
+    font-size: 14px;
+  }
+  .contact-items p {
+    font-size: 12px;
+  }
+  .contact-icon {
+    margin-right: 0;
+  }
+}
+
+/* Contact Form Section */
+.contact-form {
+  padding: 50px 30px;
+  background-color: #031119;
+}
+.map-overlay h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  text-align: center;
+}
+.map-overlay h1::after {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 3px;
+  background-color: #e3a127;
+  margin: 6px auto;
+}
+.map-overlay {
+  text-align: center;
+  background-color: #1b262c;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.3s ease;
+  color: #fff;
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 60%;
+  margin: 0 auto;
+  z-index: 100;
+  bottom: 100px;
+}
+
+.name-email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.name-email-item {
+  width: 100%;
+  position: relative;
+}
+.name-email-item .bi-person {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  color: #ffffff57;
+  transform: translateY(-50%);
+}
+
+.name-email-item .bi-envelope {
+  position: absolute;
+  top: 34px;
+  color: #ffffff57;
+  transform: translateY(-50%);
+  margin-left: 10px;
+}
+.name-email input {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #ffffff25;
+  transition: all 0.3s ease;
+}
+
+.name-email input:focus,
+.subject input:focus,
+.message textarea:focus {
+  border: 1px solid #e3a127;
+  box-shadow: 0 0 10px #e3a127;
+}
+.name-email input:focus::placeholder {
+  color: #e3a127;
+}
+
+.subject {
+  margin: 10px 0;
+  position: relative;
+}
+.subject input {
+  width: 100%;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #ffffff25;
+  transition: all 0.3s ease;
+}
+.subject input:focus::placeholder {
+  color: #e3a127;
+}
+.subject .bi-text-left {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  color: #ffffff57;
+  transform: translateY(-50%);
+}
+
+.message {
+  margin: 10px 0;
+  position: relative;
+}
+.message textarea {
+  width: 100%;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  resize: none;
+  background-color: transparent;
+  border: 1px solid #ffffff25;
+  transition: all 0.3s ease;
+}
+.message textarea:focus::placeholder {
+  color: #e3a127;
+}
+.message .bi-chat-dots {
+  position: absolute;
+  left: 10px;
+  top: 15%;
+  color: #ffffff57;
+  transform: translateY(-50%);
+}
+
+.btn-submit {
+  text-align: center;
+  padding: 10px 30px;
+  margin: 15px 0;
+  filter: drop-shadow(0 0 6px #e3a127);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #e3a127;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-submit:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 991px) {
+  .map-overlay {
+    width: 100%;
+  }
+  .name-email {
+  gap: 1px;
+}
+  .name-email {
+    flex-direction: column;
+  }
+  .subject {
+    flex-direction: column;
+  }
+  .message {
+    flex-direction: column;
+  }
+}

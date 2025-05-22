@@ -1,5 +1,5 @@
 .step-section {
-  padding: 50px 35px;
+  padding: 50px 10px;
   background-color: #031119;
 }
 .step-section .step-title {
@@ -23,6 +23,17 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 45px;
   font-weight: 600;
+}
+@media screen and (max-width: 576px) {
+  .step-section .step-heading {
+    font-size: 30px;
+  }
+  .step-section .step-title {
+    font-size: 12px;
+  }
+  .step-section .step-title::after {
+    width: 80px;
+  }
 }
 
 /* Start of step section */

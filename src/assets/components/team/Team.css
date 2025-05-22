@@ -22,10 +22,21 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
 }
+@media screen and (max-width: 576px) {
+  .team-title {
+    font-size: 30px;
+  }
+  .team-text{
+    font-size: 12px;
+  }
+  .team-text::after{
+    width: 100px;
+  }
+}
 
 /* team item */
-.team-member{
-    display: flex;
+.team-member {
+  display: flex;
     align-items: center;
     background-color: #ffffff17;
     border: 1px solid #0d1d26;
