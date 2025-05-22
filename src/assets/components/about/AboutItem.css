@@ -139,3 +139,11 @@
       transform: scale(0.9);
     }
   }
+
+
+@media screen and (max-width: 576px) {
+  .about-item-scroll h2 {
+    font-size: 20px;
+  }
+  
+}

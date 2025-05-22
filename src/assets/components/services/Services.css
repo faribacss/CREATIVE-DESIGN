@@ -165,18 +165,48 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-
-
-
-
-
 @media screen and (max-width: 992px) {
-  .service-contents{
+  .service-contents {
     width: 48%;
   }
 }
 @media screen and (max-width: 790px) {
-  .service-contents{
+  .service-contents {
     width: 100%;
   }
+}
+@media screen and (max-width: 576px) {
+  .services-section .header-title {
+    font-size: 14px;
+  }
+  .services-section .main-title {
+    font-size: 22px;
+  }
+  .services-section .service-title-1 {
+    font-size: 22px;
+  }
+  .services-section .service-title-2 {
+    font-size: 22px;
+  }
+  .service-description {
+    font-size: 14px;
+  }
+  .service-btn a {
+    font-size: 13px;
+  }
+  .service-btn i {
+    font-size: 13px;
+  }
+  .service-content .service-item-icon i {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+  }
+  .service-content .service-item-title a {
+    font-size: 18px;
+  }
+  .service-content .service-item-description {
+    font-size: 13px;
+  }
+  
 }
