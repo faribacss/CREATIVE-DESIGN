@@ -4,6 +4,7 @@ import Header from './assets/components/header/Header'
 import About from './assets/components/about/About'
 import Services from './assets/components/services/Services'
 import Step from './assets/components/steps/Step'
+import Team from './assets/components/team/Team'
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Services />
       <Step />
+      <Team />
     </>
   )
 }
