@@ -10,7 +10,7 @@ const contactItems = [
     icon: "bi bi-geo-alt",
     title: "Our Address",
     address: "1842 Maple Avenue, Portland, Oregon 97204",
-    delay: "200",
+    delay: "300",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const contactItems = [
     icon: "bi bi-headset",
     title: "Hours of Operation",
     address: "Sunday-Fri: 9 AM - 6 PM <br /> Saturday: 9 AM - 4 PM",
-    delay: "600",
+    delay: "500",
   },
 ];
 
@@ -36,7 +36,7 @@ function Contact() {
     <>
       <section className="contact-section">
         <div className="container">
-          <div data-aos="fade-up" data-aos-delay="100">
+          <div data-aos="fade-up" data-aos-delay="200">
             <span>CONTACT</span>
             <h2>LET`S CONNECT</h2>
           </div>
@@ -60,7 +60,7 @@ function Contact() {
         <div className="container">
           <form>
             <div className="row">
-              <div className="map-overlay">
+              <div className="map-overlay" data-aos="fade-up" data-aos-delay="300">
                 <h1>Get in Touch</h1>
                 <div className="form-items">
                   <div className="col-md-12 name-email">

@@ -117,8 +117,8 @@ function Team (){
         {/* Start Team Section */}
         <section className="teams">
           <div className="container">
-            <span className="team-text">TEAM</span>
-            <h1 className="team-title mb-5">Check Our Team</h1>
+            <span className="team-text" data-aos="fade-up" data-aos-delay="100">TEAM</span>
+            <h1 className="team-title mb-5" data-aos="fade-up" data-aos-delay="100">Check Our Team</h1>
             <div className="row gy-4">
               {
                 teamData.map((item) => (

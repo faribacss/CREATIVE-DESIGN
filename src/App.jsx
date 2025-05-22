@@ -6,6 +6,7 @@ import Services from './assets/components/services/Services'
 import Step from './assets/components/steps/Step'
 import Team from './assets/components/team/Team'
 import Contact from './assets/components/contact/Contact'
+import Footer from './assets/components/footer/Footer'
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
       <Step />
       <Team />
       <Contact />
+      <Footer />
     </>
   )
 }

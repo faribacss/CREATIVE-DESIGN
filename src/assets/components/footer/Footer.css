@@ -1,0 +1,110 @@
+.footer-section {
+  background-color: #031119;
+  padding: 50px 15px;
+}
+
+
+/* Footer Top */
+.footer-left-title a {
+  color: #fff;
+  margin-bottom: 15px;
+  display: block;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-left-title p {
+  color: #ffffffaf;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-left-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-left-social i {
+  color: #ffffff8a;
+  font-size: 16px;
+  border: 1px solid #ffffff8a;
+  padding: 8px 12px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.footer-left-social i:hover {
+  color: #e3a127;
+  border-color: #e3a127;
+}
+
+.footer-links-title h4,
+.footer-contact-title h4 {
+  color: #ffffffcb;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-links-title ul,
+.footer-contact-title p {
+  list-style: none;
+  padding: 0;
+}
+.footer-links-title ul li,
+.footer-contact-title p {
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff94;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.footer-links-title ul li:hover {
+  color: #e3a127;
+}
+
+
+.footer-contact-title p strong {
+  color: #ffffffcb;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .footer-left-title p {
+    font-size: 12px;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer-top {
+    gap: 25px;
+  }
+  .footer-left-title p {
+    font-size: 12px;
+  }
+}
+
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  padding-top: 50px;
+}
+.footer-bottom-items {
+  background-color: #141e24;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+.footer-bottom p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff94;
+  margin: 5px 0;
+}
+.footer-bottom p a {
+  color: #e3a127;
+}
